@@ -1,3 +1,7 @@
+<div>
+    <img style="display: inline-block; margin-right: 10px;" src="https://travis-ci.org/experience/Validation.svg" data-bindattr-156="156" title="Build Status Images">
+</div>
+
 ## Overview
 
 This package makes it easy to implement custom validation for any given array of data in your application. It also solves a common problem whereby the validation rules for a "create" action differ to those for an "update" action.
