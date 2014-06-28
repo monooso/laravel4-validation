@@ -1,0 +1,23 @@
+{
+    "name": "experience/validation",
+    "description": "",
+    "authors": [
+        {
+            "name": "Stephen Lewis",
+            "email": "stephen@experiencehq.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Experience\\Validation": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
