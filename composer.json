@@ -1,6 +1,6 @@
 {
     "name": "experience/validation",
-    "description": "",
+    "description": "Easy data validation, with support for separate 'create' and 'update' rulesets.",
     "authors": [
         {
             "name": "Stephen Lewis",
