@@ -6,7 +6,7 @@ interface ValidatorInterface
     public function validateForUpdate(Array $data);
 
     public function getCreateRules();
-    public function getUpdateRules();
+    public function getUpdateRules($key);
 
     public function getCreateMessages();
     public function getUpdateMessages();
