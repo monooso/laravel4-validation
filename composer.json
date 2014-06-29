@@ -7,6 +7,7 @@
             "email": "stephen@experiencehq.net"
         }
     ],
+    "license": "MIT",
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "4.2.*"
