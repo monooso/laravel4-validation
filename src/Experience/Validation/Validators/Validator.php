@@ -1,9 +1,10 @@
 <?php namespace Experience\Validation\Validators;
 
 use Experience\Validation\Exceptions\ValidationException;
+use Experience\Validation\Interfaces\ValidatorInterface;
 use Experience\Validation\Interfaces\ValidationProviderFactoryInterface as Factory;
 
-abstract class Validator
+abstract class Validator implements ValidatorInterface
 {
     protected $createRules = [];
     protected $updateRules = [];
